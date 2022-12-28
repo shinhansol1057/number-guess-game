@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dokdo&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="pre-title">심판부 워크숍</h1>
+    <h1 class="title">술게임</h1>
+    <h1 class="sub-title">죽음의 <span class="red-text">UP & DOWN</span></h1>
+    <div>
+      <img src="https://media1.giphy.com/media/9DinPR8bzFsmf74j9W/giphy.gif" id="box-img" class="main-img">
+      <h2>1부터 100까지의 숫자를 맞춰라.</h2>
+      <h2 id="result-area" class="red-text">못맞추면 개가된다.</h2>
+    </div>
+    <h2 id="chance-area">남은 찬스 : 5번</h2>
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-6">
+        <input type="number" id="user-input" class="form-control mb-10">
+      </div>
+      <div class="col-md-2 ms-3">
+        <button type="button" class="btn btn-outline-danger button-style" id="play-button">GO!</button>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <button type="button" class="btn btn-outline-danger button-style" id="reset-button">리셋</button>
+  </div>
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
